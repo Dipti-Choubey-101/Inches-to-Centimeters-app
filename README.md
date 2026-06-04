@@ -17,17 +17,17 @@ A simple Android application built using **Kotlin** and **Android Studio** that 
 <tr>
 <td align="center">
 <b>Home Screen</b><br>
-<img src="screenshots/Screenshot%202026-06-03%20110020.png" width="250">
+<img src="screenshots/home_screen.png" width="250">
 </td>
 
 <td align="center">
 <b>Conversion Example</b><br>
-<img src="screenshots/Screenshot%202026-06-03%20124703.png" width="250">
+<img src="screenshots/example_1.png" width="250">
 </td>
 
 <td align="center">
 <b>Another Example</b><br>
-<img src="screenshots/Screenshot%202026-06-03%20124730.png" width="250">
+<img src="screenshots/example_2.png" width="250">
 </td>
 </tr>
 </table>
