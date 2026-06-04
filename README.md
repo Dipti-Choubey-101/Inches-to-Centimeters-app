@@ -1,49 +1,43 @@
 # 📏 Inches to Centimeters Converter App
 
-A simple Android application built using Kotlin that converts inches into centimeters instantly.
+A simple Android application built using **Kotlin** and **Android Studio** that converts inches into centimeters instantly with a clean and user-friendly interface.
 
 ## 🚀 Features
 
-- Convert inches to centimeters
-- Simple and user-friendly interface
-- Real-time calculation with a button click
-- Input validation for better user experience
-- Lightweight and beginner-friendly Android project
+- Convert inches to centimeters instantly
+- Simple and intuitive user interface
+- Input validation
+- Fast and lightweight application
+- Beginner-friendly Android project
+- Built using Kotlin and XML
 
-## 📱 Screenshots
+## 📱 App Screenshots
 
-### Home Screen
+<table>
+<tr>
+<td align="center">
+<b>Home Screen</b><br>
+<img src="screenshots/Screenshot%202026-06-03%20110020.png" width="250">
+</td>
 
-![Home Screen](screenshots/Screenshot%202026-06-03%20110020.png)
+<td align="center">
+<b>Conversion Example</b><br>
+<img src="screenshots/Screenshot%202026-06-03%20124703.png" width="250">
+</td>
 
-The initial screen where users can enter an inch value for conversion.
+<td align="center">
+<b>Another Example</b><br>
+<img src="screenshots/Screenshot%202026-06-03%20124730.png" width="250">
+</td>
+</tr>
+</table>
 
----
+## 📖 How It Works
 
-### Conversion Example
-
-![Conversion Example](screenshots/Screenshot%202026-06-03%20110106.png)
-
-Input: **10 inches**
-
-Output: **25.4 cm**
-
----
-
-### Another Example
-
-![Another Example](screenshots/Screenshot%202026-06-03%20110148.png)
-
-Input: **25 inches**
-
-Output: **63.5 cm**
-
-## 🛠️ Built With
-
-- Kotlin
-- Android Studio
-- XML Layouts
-- Android SDK
+1. Enter a value in inches.
+2. Tap the **Convert** button.
+3. The app calculates the equivalent value in centimeters.
+4. The result is displayed instantly.
 
 ## 📐 Conversion Formula
 
@@ -51,18 +45,38 @@ Output: **63.5 cm**
 Centimeters = Inches × 2.54
 ```
 
+### Example Conversions
+
+| Inches | Centimeters |
+|---------|------------|
+| 10 | 25.4 cm |
+| 25 | 63.5 cm |
+| 50 | 127 cm |
+
+## 🛠️ Built With
+
+- Kotlin
+- Android Studio
+- XML Layouts
+- Android SDK
+- Material Design Components
+
 ## 📂 Project Structure
 
 ```text
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   ├── res/
+Inches-to-Centimeters-app
+│
+├── app
+│   ├── src
+│   │   ├── main
+│   │   ├── java
+│   │   ├── res
 │   │   └── AndroidManifest.xml
-│   └── test/
-├── build.gradle.kts
-└── proguard-rules.pro
+│   └── test
+│
+├── screenshots
+├── README.md
+└── build.gradle.kts
 ```
 
 ## 🎯 Learning Objectives
@@ -71,32 +85,25 @@ This project was created to practice:
 
 - Android Activity Lifecycle
 - Kotlin Programming
-- View Binding / findViewById
 - User Input Handling
 - Button Click Events
-- Basic Mathematical Calculations
+- XML Layout Design
+- Android Studio Development Workflow
 
 ## ⚙️ Installation
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Inches-to-Centimeters-app.git
+git clone https://github.com/Dipti-Choubey-101/Inches-to-Centimeters-app.git
 ```
 
 2. Open the project in Android Studio.
 
 3. Sync Gradle files.
 
-4. Run the application on an emulator or Android device.
+4. Run the application on an emulator or physical Android device.
 
-## 📸 Demo
-
-Enter a value in inches and tap the **Convert** button to get the equivalent value in centimeters.
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
 
 ## 📄 License
 
@@ -104,6 +111,6 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Diptanil Sen**
+**Dipti-Choubey**
 
-GitHub: https://github.com/Diptanil-Sen
+GitHub: https://github.com/Dipti-Choubey-101
